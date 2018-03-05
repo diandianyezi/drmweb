@@ -4,9 +4,15 @@ import Vue from 'vue'
 import App from './App'
 import router from './router'
 import Element from 'element-ui'
+import VueResource from 'vue-resource'
+import VueVideoPlayer from 'vue-video-player'
+import 'font-awesome/css/font-awesome.css'
 
 Vue.config.productionTip = false
 Vue.use(Element)
+Vue.use(VueResource)
+
+Vue.use(VueVideoPlayer)
 
 /* eslint-disable no-new */
 new Vue({

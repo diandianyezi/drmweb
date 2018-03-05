@@ -1,6 +1,6 @@
 <template>
   <div>
-    新增key
+    上传视频
   </div>
 </template>
 <script>
