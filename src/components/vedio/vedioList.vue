@@ -238,6 +238,13 @@ export default {
               message: "保存成功",
               type: "success"
             });
+			this.form = {
+				title: "",
+				encryptWay: "",
+				descript: "",
+				myFile: [],
+				price: ""
+      		}
           } else {
             this.$message({
               showClose: true,
